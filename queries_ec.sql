@@ -10,7 +10,7 @@ SELECT concat(Fname,' ', LName) AS 'Nome completo' FROM cliente, pedido
 	WHERE idCliente = idPedidoCliente;
 
 -- Criação de atributo derivado
--- Retornando a idade dos clientes apartir da data de nascimento
+-- Retornando a idade dos clientes a partir da data de nascimento
 SELECT (2024 - YEAR(birth)) AS Idade FROM cliente;
 
 -- Order by
@@ -25,7 +25,7 @@ SELECT count(Elocal) AS 'quantidade por local'
     HAVING Elocal='SP';
 
 -- Junção entre tabelas 
--- Vizualização de produtos de acordo com o local de estoque
+-- Visualização de produtos de acordo com o local de estoque
 SELECT * FROM estoque;
 SELECT p.idProduto, l.idLEstoque, p.ProdNome, l.Elocal 
 	FROM produto p 
