@@ -1,5 +1,5 @@
 -- Inserção de dados nas tabelas
--- use ecommerce;
+-- use ecommerce; 
 show tables;
 
 -- cliente
