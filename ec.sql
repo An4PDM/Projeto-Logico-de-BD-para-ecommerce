@@ -1,5 +1,5 @@
 -- criação do BD para o cenário de E-commerce
-create database if not exists ecommerce;
+create database if not exists ecommerce; 
 use ecommerce;
 drop database ecommerce;
 
